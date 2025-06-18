@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>STS Finanzen – Landingpage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header mit Logo & Navigation -->
+  <header>
+    <div class="logo">STS Finanzen</div>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#impressum">Impressum</a>
+      <a href="#datenschutz">Datenschutz</a>
+      <a href="#nachhaltigkeit">Nachhaltigkeit</a>
+    </nav>
+  </header>
+
+  <!-- Hero-Bereich -->
+  <section class="container">
+    <div>
+      <h1>Herzlich Willkommen!</h1>
+      <p>Wir sind Ihre unabhängigen Partner für Finanzen, Vermögen, Versicherungen & mehr.</p>
+      <button onclick="document.getElementById('kontakt').scrollIntoView({behavior:'smooth'})">
+        Jetzt Kontakt aufnehmen
+      </button>
+    </div>  
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/jETjQUvdDE8" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Leistungen -->
+  <section class="container" id="leistungen">
+    <section>
+      <h2>Finanzen & Consulting</h2>
+      <p>Professionelle Beratung im Bereich Finanzen und Unternehmensstrukturen.</p>
+      <a href="#" class="button-link">Mehr erfahren…</a>
+    </section>
+    <section>
+      <h2>Vermögensverwaltung</h2>
+      <p>Individuelle Strategien, Fonds-TÜV, Rebalancing & Reporting.</p>
+      <a href="#" class="button-link">Mehr erfahren…</a>
+    </section>
+    <section>
+      <h2>Beteiligungs‑GmbH</h2>
+      <p>Beratung zu Beteiligungen und M&A im Finanzsektor.</p>
+      <a href="#" class="button-link">Mehr erfahren…</a>
+    </section>
+  </section>
+
+  <!-- Neuer Bild-Text-Abschnitt -->
+  <section class="beratung-section">
+  <div class="beratung-bild">
+    <img src="https://sts-finanzen.de/wp-content/uploads/2019/11/Anlagenberatung_1200x800.jpg" alt="Beratung">
+  </div>
+  <div class="beratung-text">
+    <h2>Unser Beratungsansatz</h2>
+    <p>Wir bieten maßgeschneiderte Finanzkonzepte mit höchster Transparenz und nachhaltigem Mehrwert für Ihre Zukunft.</p>
+    <a href="#" class="button-link">Jetzt mehr erfahren</a>
+  </div>
+</section>
+
+
+  <!-- USP-Kacheln -->
+  <section class="container">
+    <section>
+      <h2>Individuelle Strategien</h2>
+      <p>Wir erstellen persönliche Finanz- und Anlagepläne für Ihre Ziele.</p>
+    </section>
+    <section>
+      <h2>Unabhängigkeit</h2>
+      <p>Keine Konzernbindung – Ihre Interessen stehen im Mittelpunkt.</p>
+    </section>
+    <section>
+      <h2>Transparenz</h2>
+      <p>Klare Informationen, nachvollziehbare Entscheidungen, offene Kommunikation.</p>
+    </section>
+  </section>
+
+  <!-- Über uns & Kontakt -->
+  <section class="container">
+    <div>
+      <h2>Über uns</h2>
+      <p>Die Schumacher Finanzen und Consulting GmbH unterstützt Sie kompetent bei Finanzen, Versicherungen und Immobilien.</p>
+    </div>
+    <div id="kontakt">
+      <h2>Kontakt</h2>
+      <p>
+        Schumacher Finanzen und Consulting GmbH<br />
+        Am Grafenbusch 3, 46047 Oberhausen<br /><br />
+        T +49 208 82 84 590<br />
+        F +49 208 82 84 59 50<br /><br />
+        <a href="mailto:info@sts-finanzen.de">info@sts-finanzen.de</a><br />
+        <a href="https://sts-finanzen.de" target="_blank">www.sts‑finanzen.de</a>
+      </p>
+
+      <h3>Schreiben Sie uns</h3>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Ihr Name" required />
+        <input type="email" name="email" placeholder="Ihre E‑Mail" required />
+        <textarea name="message" placeholder="Ihre Nachricht" required></textarea>
+        <button type="submit">Absenden</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Schumacher Finanzen und Consulting GmbH
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
